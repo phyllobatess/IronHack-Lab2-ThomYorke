@@ -1,0 +1,48 @@
+
+#biografia{
+}
+
+.header {
+  background-image: url('https://estaticos-cdn.elperiodico.com/clip/f1348c85-6037-44e0-b319-298f40846e69_media-libre-aspect-ratio_default_0.jpg');
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+}
+
+header h5{
+    font-size: 5em;
+  text-align: start;
+  text-transform: uppercase;
+  line-height: 4em;
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+}
+
+.nav-bar {
+  background-color: rgb(158, 29, 29);
+  padding: 3px 0;
+  text-transform: uppercase;
+  
+}
+.nav-bar li{
+    list-style-type: none;
+}
+
+.nav-bar a {
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer a {
+  color: rgb(158, 29, 29);
+  text-decoration: none;
+}
