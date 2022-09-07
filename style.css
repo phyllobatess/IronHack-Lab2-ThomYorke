@@ -1,16 +1,54 @@
 
-#biografia{
+ /* selector para todo el archivo */
+*{
+margin: 0;
+box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Roboto";
+
+
+}
+nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .header {
   background-image: url('https://estaticos-cdn.elperiodico.com/clip/f1348c85-6037-44e0-b319-298f40846e69_media-libre-aspect-ratio_default_0.jpg');
   background-position: 0 0;
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
-  height: 650px;
+  height:950px;
   padding-top: 50px;
   position: relative;
+  font-size: 20px;
 }
+#biografia {
+  
+  background-size:cover;
+  background-repeat: no-repeat;
+  height:200px;
+  padding:40px 40px 70px 40px;
+  position: relative;
+  background-image: url('//img.freepik.com/vector-premium/fondo-rojo-suave-diseno-textura-acuarela_1055-10759.jpg?w=1480')
+}
+
+#discografia {
+    background-image: url('//img.freepik.com/vector-premium/fondo-rojo-suave-diseno-textura-acuarela_1055-10759.jpg?w=1480')
+}
+
+  
+
+#biografia li{
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
 
 header h5{
     font-size: 5em;
@@ -29,6 +67,8 @@ header h5{
 }
 .nav-bar li{
     list-style-type: none;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .nav-bar a {
@@ -43,6 +83,47 @@ header h5{
 }
 
 .footer a {
-  color: rgb(158, 29, 29);
+  color: white;
   text-decoration: none;
+}
+
+
+.service-box h1{
+  font-size: 1.7em;
+  text-align: center;
+  border: 2px solid #EEE;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #EEE;
+  margin: 50px 5% 0 5%;
+  padding: 20px;
+  width: 40%;
+}
+.container img{
+  width: 600px;
+  margin: 50 auto;
+  padding:50px 0;
+  margin-top: 20px;
+  
+}
+
+#integrantes h1{
+    padding: 20px;
+    margin:40px;
+}
+
+#integrantes {
+    background-image: url('//img.freepik.com/vector-premium/fondo-rojo-suave-diseno-textura-acuarela_1055-10759.jpg?w=1480')
+}
+
+
+    
+footer {
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color:rgb(158, 29, 29) ;
+    font-size: 30px;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
